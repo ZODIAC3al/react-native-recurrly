@@ -6,6 +6,11 @@ import { Text } from "react-native";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
 
 const SafeAreaView = styled(RNSafeAreaView);
+/**
+ * Root application component that renders a safe-area layout containing a welcome message and navigation links to onboarding, authentication, and subscription routes.
+ *
+ * @returns The React element for the app's main UI.
+ */
 export default function App() {
   return (
     <SafeAreaView className="flex-1 p-5 bg-background">
